@@ -46,4 +46,5 @@ export class UserRepository extends Repository<User> {
         return bcrypt.hash(password, salt);
     }
 
+    //comentei e saí vazado
 }
